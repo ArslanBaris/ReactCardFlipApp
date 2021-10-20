@@ -8,100 +8,100 @@ class ChanelContextProvider extends React.Component {
         {
           "id": 1,
           "name": "TRT 1",
-          "rating": 84500,
-          "overview": 25122 ,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2021-02-03-17.55.58/7dea9fa085b6422cb263c3148cb247b7_w_118.png"
+          "x": 84500,
+          "y": 25122 ,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/11064246.png"
         },
         {
           "id": 2,
           "name": "TRT 2",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.12.39/d052cece8a9049348c49812c1141e586_w_118.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/7900419.png"
         },
         {
           "id": 3,
           "name": "TRT WORLD",
-          "rating": 50000,
-          "overview": 10000,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.14.57/afb285c992c744fe83f01388e262b839_w_118.png"
+          "x": 50000,
+          "y": 10000,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/7900434.png"
         },
-        {
-          "id": 4,
-          "name": "TRT HABER",
-          "rating": 80000,
-          "overview": 17000,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2020-10-13-20.48.21/22a73f58e06e4979827002c9463e196d_w_118.png"
-        },
+        // {
+        //   "id": 4,
+        //   "name": "TRT HABER",
+        //   "x": 80000,
+        //   "y": 17000,
+        //   "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2020-10-13-20.48.21/22a73f58e06e4979827002c9463e196d_w_118.png"
+        // },
         {
           "id": 5,
           "name": "TRT SPOR",
-          "rating": 98500,
-          "overview": 36550,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.23.47/26a2ed090ada4b9fba97b3fcab3551d7_w_118.png"
+          "x": 98500,
+          "y": 36550,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/7900408.png"
         },
         {
           "id": 6,
           "name": "TRT SPOR YILDIZ",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2021-05-19-16.06.31/58f9cdd55a694f5ba0acb1c1110dc4b1_w_118.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/11342765.png"
         },
         {
           "id": 7,
           "name": "TRT AVAZ",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.18.03/0285e2cef9cc4c6ab30d98932257ec99_w_118.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/7900367.png"
         },
         {
           "id": 8,
           "name": "TRT ÇOCUK",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.18.36/22fa8c432fe245a796cff18a36745381_w_118.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/7900396.png"
         },
         {
           "id": 9,
           "name": "TRT BELGESEL",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.19.01/69a03b09fca64ae0b1503a05729cdf22_w_118.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/7900403.png"
         },
         {
           "id": 10,
           "name": "TRT MÜZİK",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2021-08-25-09.58.58/129fd7b2ea9b4016be296e9706901bc3_w_118.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/12382044.png"
         },
         {
           "id": 11,
           "name": "TRT TÜRK",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2021-08-27-12.29.27/ac871e01cadf481a99d9353e52459ebc_w_118.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/12037070.png"
         },
         {
           "id": 12,
           "name": "TRT EBA İLKOLUK",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://www.trt.net.tr/img/logolar/TRT-eba-ilkokul-logo-h33.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/8014035.png"
         },
         {
           "id": 13,
           "name": "TRT ORTAOKUL",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://www.trt.net.tr/img/logolar/TRT-eba-ortaokul-logo-h33.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/8014037.png"
         },
         {
           "id": 14,
           "name": "TRT LİSE",
-          "rating": 36512,
-          "overview": 12111,
-          "imageURL": "https://www.trt.net.tr/img/logolar/TRT-eba-lise-logo-h33.png"
+          "x": 36512,
+          "y": 12111,
+          "imageURL": "https://cdn-i.pr.trt.com.tr/trttv/w256/h144/q80/8014050.png"
         }    
       ]   
   };
