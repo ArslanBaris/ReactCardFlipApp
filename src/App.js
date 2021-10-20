@@ -1,9 +1,19 @@
+import React from "react";
+
+// Components
+import CardList from "./components/CardList";
+
+// Contexts
+import ChanelContextProvider from "./contexts/ChanelContext";
+import ThemeContextProvider from "./contexts/ThemeContext";
 
 function App() {
   return (
-    <div>
-      Hello world!
-    </div>
+    <ThemeContextProvider>
+      <ChanelContextProvider>
+        <CardList />
+      </ChanelContextProvider>
+    </ThemeContextProvider>
   );
 }
 
