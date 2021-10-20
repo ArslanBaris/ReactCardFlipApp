@@ -18,12 +18,13 @@ const CardList = () => {
   return (
     <section
       className="page-section"
+      id="portfolio"
       style={{ background: theme.bg, color: theme.txt }}
     >
       <div className="container">
         <div className="text-center">
           <h2 className="section-heading text-uppercase">Chanels</h2>
-          <h3 className="section-subheading text-muted">
+          <h3 className="section-subheading" style={{color:"black"}}>
             Chanels ratings
           </h3>          
         </div>
