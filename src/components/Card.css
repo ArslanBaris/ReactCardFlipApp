@@ -1,14 +1,36 @@
+.card .front{
+  backface-visibility: hidden;  
+  width: 100%;
+  height: 100%;
+}
+
+.card .back{
+  
+  transform:rotateY(180deg);
+
+  position: absolute;
+}
+
+.card figure{
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  position: absolute;
+  flex-direction: column;
+
+}
+
 .card {    
   margin-inline: 15px;
   align-items: center;
-  border-radius: 15px;
+  border-radius: 25px;
   height: 330px;
   transition: transform 1s ease-in-out;
   transform-style: preserve-3d;
   text-align: center; 
  }
  .card-container:hover .card {    
-  transform:rotateY(180deg);
+  transform:rotateY(180deg);  
 
  }
 .card-img {    
