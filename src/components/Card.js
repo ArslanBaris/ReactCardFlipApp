@@ -14,7 +14,7 @@ const Card = ({ chanel }) => {
   const { dark } = useContext(ThemeContext);
   const theme = dark;
   return (
-    <div className="card-container col-lg-4 col-sm-6 mb-5">
+    <div className="card-container col-lg-3 col-sm-6 mb-5">
       <div className="card text-white bg-dark mb-3"> 
         <figure className="front">
           <CardFront chanel={chanel} />
