@@ -23,10 +23,21 @@ const CardList = () => {
     >
       <div className="container">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase">Chanels</h2>
-          <h3 className="section-subheading" style={{color:"black"}}>
-            Chanels ratings
-          </h3>          
+        <div style ={{margin:"auto"}} className="card-container col-sm-10 mb-5">
+      <div className="card text-white bg-dark mb-3"> 
+      <img style ={{marginTop:"5%", width:"20%", height:"auto"}} src="http://www.trt.net.tr/img/logolar/TRT_New_Logo.png" alt="" />
+      <hr style={{ margin:"alt", width: "70%" }} />
+      <div className="portfolio-caption">
+        
+        <div className="portfolio-caption-subheading text-muted">
+          1111
+        </div>
+        <div className="portfolio-caption-subheading text-muted">
+          2222
+        </div>
+      </div>
+      </div>
+    </div>      
         </div>
         <div className="row">
           {chanels.map((chanel) => {
