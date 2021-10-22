@@ -2,6 +2,7 @@ import React from "react";
 
 // Components
 import CardList from "./components/CardList";
+import Footer from "./components/Footer";
 
 // Contexts
 import ChanelContextProvider from "./contexts/ChanelContext";
@@ -12,6 +13,7 @@ function App() {
     <ThemeContextProvider>
       <ChanelContextProvider>
         <CardList />
+        <Footer />
       </ChanelContextProvider>
     </ThemeContextProvider>
   );
