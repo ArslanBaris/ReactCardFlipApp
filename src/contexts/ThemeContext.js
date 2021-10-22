@@ -4,7 +4,7 @@ export const ThemeContext = React.createContext();
 
 class ThemeContextProvider extends React.Component {
   state = {    
-    dark: {bg: '#53737a', txt: '#00000'}    
+    dark: {bg: '#24527a', txt: '#00000'}    
   };
 
 
