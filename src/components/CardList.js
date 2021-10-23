@@ -2,7 +2,7 @@ import React from "react";
 import { useContext, useState, useEffect } from "react";
 
 // Styles
-import './CardList.css'
+import "./CardList.css";
 
 // Components
 import Card from "./Card";
@@ -23,21 +23,30 @@ const CardList = () => {
     >
       <div className="container">
         <div className="text-center">
-        <div style ={{margin:"auto"}} className="card-container col-sm-10 mb-5">
-      <div className="card text-white bg-dark mb-3"> 
-      <img style ={{marginTop:"5%", width:"20%", height:"auto"}} src="http://www.trt.net.tr/img/logolar/TRT_New_Logo.png" alt="" />
-      <hr style={{ margin:"alt", width: "70%" }} />
-      <div className="portfolio-caption">
-        
-        <div className="portfolio-caption-subheading text-muted">
-          1111
-        </div>
-        <div className="portfolio-caption-subheading text-muted">
-          2222
-        </div>
-      </div>
-      </div>
-    </div>      
+          <div
+            style={{ margin: "auto" }}
+            className="card-container col-sm-10 mb-5"
+          >
+            <div className="bg-dark" style={{height:"330px",borderRadius:"25px"}}>
+              <img
+                style={{ marginTop: "5%", width: "20%"}}
+                src="https://cdn-s.pr.trt.com.tr/trtizle/images/logo.svg"
+                alt=""
+              />
+              <hr style={{width:"60%",margin:"auto",background:"white",marginTop:"4%"}}/>
+              <div className="portfolio-caption" style={{marginTop:"2%"}} >             
+                <div className="portfolio-caption-subheading"  style={{color:"green",fontWeight:"bolder"}}>
+                  Anlık İzleyici: 1505000
+                </div>
+                <div className="portfolio-caption-subheading" style={{color:"orange",fontWeight:"bolder"}} >
+                  Tahmini Total Reyting : 2950800
+                </div>
+                <div className="portfolio-caption-subheading" style={{color:"yellow",fontWeight:"bolder"}} >
+                  Tahmini İzleyici : 2500000
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="row">
           {chanels.map((chanel) => {
