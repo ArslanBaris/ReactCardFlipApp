@@ -14,7 +14,7 @@ const CardBack = ({ chanel }) => {
               labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
               datasets: [{
             label: 'Chanel Rating',
-            data: [12, 19, 3, 5, 8, 20],
+            data: chanel.data,
             fill:false,
             borderColor: 'rgb(75, 192, 192)',
     
