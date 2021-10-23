@@ -5,7 +5,7 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 5%;
+    height:auto;
     width: 100%;
   }
   .circleOrange {
@@ -44,15 +44,17 @@
     margin-left: 2px; 
     color: white ;
     font-family: 'Times New Roman', Times, serif;
-  }
+   }
   .myFooter{     
     display: flex;
     margin-left: 67%;
     text-align: center;
     align-items: baseline;
     padding: 2px;
-  }
+    float: right;
+  } 
 
+ 
 
 
   
