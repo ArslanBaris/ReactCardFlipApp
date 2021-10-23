@@ -1,69 +1,32 @@
-.card .front{
-  backface-visibility: hidden;  
+.card .front {
+  backface-visibility: hidden;
   width: 100%;
   height: 100%;
 }
 
-.card .back{
-  
-  transform:rotateY(180deg);
-
+.card .back {
+  transform: rotateY(180deg);
   position: absolute;
 }
 
-.card figure{
+.card figure {
   height: 100%;
   width: 100%;
   border-radius: 15px;
   position: absolute;
   flex-direction: column;
-
 }
 
-.card {    
+.card {
   margin-inline: 15px;
   align-items: center;
-  border-radius: 25px;
+  border-radius: 25px !important;
   height: 330px;
   transition: transform 1s ease-in-out;
   transform-style: preserve-3d;
-  text-align: center; 
- }
- .card-container:hover .card {    
-  transform:rotateY(180deg);  
-
- }
-.card-img {    
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
- }
-  .portfolio-caption-heading{
-   font-weight: bolder;   
- } 
-    
- #portfolio .portfolio-item {
-    max-width: 25rem;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  text-align: center;
+}
+.card-container:hover .card {
+  transform: rotateY(180deg);
   
-  #portfolio .portfolio-item .portfolio-caption {
-    padding: 1rem;
-    text-align: center;   
-  }
- 
-  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
-    font-size: 1.5rem;
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 700;
-    margin-bottom: 1rem;
-  }
-  
-  #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
-    font-style: italic;
-    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1.1rem;    
-  }
-
-   
+}

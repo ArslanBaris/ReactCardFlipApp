@@ -1,56 +1,56 @@
-.myFooter {   
+.myBaseFooter {   
     background-color: #161822f6;   
     text-align: center;
     padding: 5px;
     position: fixed;
     left: 0;
     bottom: 0;
-    height: 8%;
+    height: 5%;
     width: 100%;
   }
   .circleOrange {
     display: flex;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: orange;
     border-radius: 50%;
     color:orange;
     align-items: center;    
-    padding: 10px;   
-   
+    margin-left: 5px;
+  }
+  .circleGreen {
+    display: flex;
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    border-radius: 50%;
+    align-items: center;    
+    color:green;
+    
   }
   .circleYellow {
     display: flex;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     background-color: yellow;
     border-radius: 50%;
     align-items: center;    
-    padding: 10px;
-    color:yellow;
-    
-  }
-  .circleRed {
-    display: flex;
-    width: 10px;
-    height: 10px;
-    background-color: red;
-    border-radius: 50%;
-    align-items: flex-end;    
-    padding: 10px;
-    color:red; 
+    margin-left: 5px;
+    color:yellow; 
   }
   .text2{
-    font-size: 1.5rem;
-    margin-left: 10px; 
+    font-size: 1.1rem;
+    margin-right: 10px; 
+    margin-left: 2px; 
     color: white ;
+    font-family: 'Times New Roman', Times, serif;
   }
-  .deneme{     
+  .myFooter{     
     display: flex;
-    margin-left: 70%;
-    padding: 5px;
+    margin-left: 67%;
     text-align: center;
     align-items: baseline;
+    padding: 2px;
   }
 
 
