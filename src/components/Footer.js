@@ -5,17 +5,17 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="myFooter">
+    <div className="myBaseFooter">
      
-        <div className="deneme ">
-          <h2 className="circleYellow text2 " ></h2>
-          <h2 className=" text2"  >Sarı</h2>
-          <h2 style={{ color: 'white' }}>/</h2>
-          <h2 className="circleOrange text2 "></h2>
-          <h2 className=" text2" > Turuncu</h2>
-          <h2 style={{ color: 'white' }}>/</h2>
-          <h2 className="circleRed text2 " ></h2>
-          <h2 className=" text2" > Kırmızı</h2>
+        <div className="myFooter">
+          <h2 className="circleGreen" ></h2>
+          <h2 className=" text2"  style={{ color: 'green'}}>Anlık İzleyici</h2>
+          <h2 style={{ color: 'white' , fontSize:"1.3rem"}}>/</h2>
+          <h2 className="circleOrange  "></h2>
+          <h2 className=" text2" style={{ color: 'orange'}}> Tahmini Total Reyting</h2>
+          <h2 style={{ color: 'white', fontSize:"1.3rem" }}>/</h2>
+          <h2 className="circleYellow  " ></h2>
+          <h2 className=" text2" style={{ color: 'yellow'}} > Tahmini İzleyici</h2>
         </div>
       
     </div>
