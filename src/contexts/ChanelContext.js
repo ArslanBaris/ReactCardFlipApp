@@ -141,7 +141,7 @@ const ChanelContextProvider = (props) => {
       "estimateRating": 170080,
       "estimateViewer": 250020,
       "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.20.11/24b0f037378945888f2463b6262418f0_w_118.png",
-      "data": [350000,81900,390000,95000,80000,20000 ],
+      "data": [150000,98900,130000,95000,80000,110000 ],
       "marginTop":"20%",
       "height":"40%"
     },
@@ -152,7 +152,7 @@ const ChanelContextProvider = (props) => {
       "estimateRating": 170080,
       "estimateViewer": 250020,
       "imageURL": "https://trtkurumsal.trt.net.tr/Uploads/image/png/2019-03-20-11.21.19/890ab780012848a99eda0bda8c1c605d_w_118.png",
-      "data": [350000,81900,390000,95000,80000,20000 ],
+      "data": [150000,181900,190000,170000,185000,160000 ],
       "marginTop":"20%",
       "height":"40%"
     },    
